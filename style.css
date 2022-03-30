@@ -40,6 +40,15 @@ body{
 }
 
 .input-box{
+    /* width:260px;
+    padding: 0 10px; */
+    width:0px;
+    /* Transition will allow the opening of the hover psuedo class animation look less choppy */
+    transition: 0.6s;
+}
+/* This will be a psuedo CSS tag that will make our email placeholder box look way cooler */
+/* What does the greater than > icon do in CSS??? */
+.email-box:hover > .input-box, .input-box:focus{
     width:260px;
     padding: 0 10px;
 }
