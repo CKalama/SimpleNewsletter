@@ -34,4 +34,21 @@ body{
     line-height:40px;
 }
 
+.input-box, .btn {
+    border:none;
+    outline:none;
+}
+
+.input-box{
+    width:260px;
+    padding: 0 10px;
+}
+
+.btn {
+    background: black;
+    color:white;
+    padding: 0 10px;
+    text-transform: capitalize;
+    cursor:pointer;
+}
 
